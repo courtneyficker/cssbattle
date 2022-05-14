@@ -1,0 +1,53 @@
+<div class="main">
+  <div class="tines">
+    <p><p><p><p>
+  </div>
+  <div class="downward">
+    <p><p><p>
+  </div>
+</div>
+<style>
+  body {
+    background: #6592CF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div.main {
+    width: 140px;
+    height: 193px;
+    background: #060F55;
+    border-radius: 0 0 100px 100px;
+    transform: translate(0, 4px);
+  }
+  div.main:after {
+    display: block;
+    content:'';
+    width: 20px;
+    height: 55px;
+    background: #060F55;
+    margin: -2 auto;
+  }
+  .tines {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tines p {
+    width: 20px;
+    height: 20px;
+    background: #060F55;
+    transform: translate(0, -24px);
+    border-radius: 50%;
+  }
+  .downward {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .downward p {
+    width: 20px;
+    height: 110px;
+    background: #6592CF;
+    transform: translate(0, -76px);
+    border-radius: 0 0 10px 10px;
+  }
+</style>

@@ -1,0 +1,31 @@
+<div class="rect"></div>
+<div class="square"></div>
+<div class="circle"></div>
+<style>
+  body {
+    background: #222730;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  div {
+    position: absolute;
+    height: 150px;
+	aspect-ratio: 1;
+  }
+  div.rect {
+    width: 400px;
+    background: #4CAAB3;
+  }
+  div.square {
+    background: #4CAAB3;
+	transform: rotate(45deg);
+    box-shadow: 0 0 0 50px #222730;
+  }
+  div.circle {
+    height: 50px;
+    border-radius: 50%;
+    background: #393E46;
+  }
+</style>
